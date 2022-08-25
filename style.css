@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Coming Soon', serif;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.relogio {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 200px;
+  width: 550px;
+  background: transparent;
+  border-radius: 7px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 5);
+}
+
+.relogio div {
+  display: flex;
+  flex-direction: column;
+  height: 170px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  border-radius: 7px;
+  letter-spacing: 3px;
+}
+
+.relogio span {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.relogio span.tempo {
+  font-size: 10px;
+}
